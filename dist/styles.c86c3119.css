@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  src: url("/PlayfairDisplay-Regular.ba2f3389.ttf");
+}
+@font-face {
+  font-family: "PlayfairDisplay-Medium";
+  src: url("/PlayfairDisplay-Medium.b1dff077.ttf");
+}
+@font-face {
+  font-family: "PlayfairDisplay-Bold";
+  src: url("/PlayfairDisplay-Bold.0caa2a8d.ttf");
+}
+.nav {
+  font-family: "PlayfairDisplay-Regular";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=/styles.c86c3119.css.map */
