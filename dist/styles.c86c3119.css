@@ -10,8 +10,47 @@
   font-family: "PlayfairDisplay-Bold";
   src: url("/PlayfairDisplay-Bold.0caa2a8d.ttf");
 }
-.nav {
+.nav-container {
+  background-color: #FFE55C;
+  padding: 8px;
   font-family: "PlayfairDisplay-Regular";
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  position: relative;
+}
+.nav__left ul {
+  list-style: none;
+  display: flex;
+}
+.nav__left a {
+  text-decoration: none;
+  margin: 0px 20px;
+  font-family: "PlayfairDisplay-Regular";
+  color: black;
+}
+.nav__center {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.nav__center h1 {
+  font-family: "PlayfairDisplay-Bold";
+  font-size: 1.8rem;
+  letter-spacing: 0.075rem;
+}
+.nav__center h3 {
+  font-family: "PlayfairDisplay-Regular";
+  margin-top: -0.25rem;
+  letter-spacing: 0.075rem;
 }
 
 * {
