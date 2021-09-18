@@ -1,0 +1,38 @@
+@use './colors';
+@use './fonts';
+
+.hero-wrapper {
+    h2 {
+        color: colors.$textBlack;
+        font-size: 4.6rem;
+        line-height: 5.2rem;
+        text-align: center;
+        font-family: 'PlayfairDisplay-Bold';
+        font-weight: 300;
+        padding-top: 64px;
+    }
+    &__links {
+        text-align: center;
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    a {
+        display: flex;
+        justify-content: center;
+        margin: 0px 20px;
+        font-family: 'PlayfairDisplay-Medium';
+        text-decoration: none;
+        color: colors.$textBlack;
+        font-weight: 500;
+        border-bottom: 2px solid colors.$yellow;
+        margin-bottom: 64px;
+        &:hover {
+            border-bottom: 2px solid colors.$textBlack;
+        }
+    }
+    img {
+        margin-left: 10px;
+        max-width: 22px;
+    }
+}

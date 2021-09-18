@@ -1,6 +1,8 @@
 @use './nav';
 @use './colors';
 @use './fonts';
+@use './hero';
+@use './latestArticles';
 
 
 * {
@@ -11,4 +13,7 @@
 html, body {
     height: 100%;
     width: 100%;
+}
+body {
+    background-color: colors.$bgLightGray;
 }

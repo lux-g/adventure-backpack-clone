@@ -1,0 +1,17 @@
+@use './colors';
+@use './fonts';
+
+.latest-articles-container {
+    margin: 0 auto;
+    max-width: 1680px;
+    background-color: colors.$bgWhite;
+}
+.latest-articles {
+    h2 {
+        padding-top: 40px;
+        text-align: center;
+        font-family: 'Rubik-Regular';
+        font-weight: 400;
+        padding-bottom: 32px;
+    }
+}

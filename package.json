@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "parcel-bundler": "^1.12.3",
     "sass": "^1.41.0"
-  }
+  },
+  "dependencies": {}
 }

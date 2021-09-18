@@ -10,6 +10,18 @@
   font-family: "PlayfairDisplay-Bold";
   src: url("/PlayfairDisplay-Bold.0caa2a8d.ttf");
 }
+@font-face {
+  font-family: "Rubik-Light";
+  src: url("/Rubik-Light.e9917ee2.ttf");
+}
+@font-face {
+  font-family: "Rubik-Medium";
+  src: url("/Rubik-Medium.d1912f77.ttf");
+}
+@font-face {
+  font-family: "Rubik-Regular";
+  src: url("/Rubik-Regular.6d61f87c.ttf");
+}
 .nav-container {
   background-color: #FFE55C;
   padding: 8px;
@@ -33,7 +45,7 @@
   text-decoration: none;
   margin: 0px 20px;
   font-family: "PlayfairDisplay-Regular";
-  color: black;
+  color: #333333;
 }
 .nav__center {
   position: absolute;
@@ -46,11 +58,64 @@
   font-family: "PlayfairDisplay-Bold";
   font-size: 1.8rem;
   letter-spacing: 0.075rem;
+  color: #333333;
 }
 .nav__center h3 {
   font-family: "PlayfairDisplay-Regular";
   margin-top: -0.25rem;
   letter-spacing: 0.075rem;
+  color: #333333;
+}
+.nav__right .fab, .nav__right .fas {
+  margin: 0px 10px;
+}
+
+.hero-wrapper h2 {
+  color: #333333;
+  font-size: 4.6rem;
+  line-height: 5.2rem;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold";
+  font-weight: 300;
+  padding-top: 64px;
+}
+.hero-wrapper__links {
+  text-align: center;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.hero-wrapper a {
+  display: flex;
+  justify-content: center;
+  margin: 0px 20px;
+  font-family: "PlayfairDisplay-Medium";
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+  border-bottom: 2px solid #FFE55C;
+  margin-bottom: 64px;
+}
+.hero-wrapper a:hover {
+  border-bottom: 2px solid #333333;
+}
+.hero-wrapper img {
+  margin-left: 10px;
+  max-width: 22px;
+}
+
+.latest-articles-container {
+  margin: 0 auto;
+  max-width: 1680px;
+  background-color: #FFFFFF;
+}
+
+.latest-articles h2 {
+  padding-top: 40px;
+  text-align: center;
+  font-family: "Rubik-Regular";
+  font-weight: 400;
+  padding-bottom: 32px;
 }
 
 * {
@@ -62,6 +127,10 @@
 html, body {
   height: 100%;
   width: 100%;
+}
+
+body {
+  background-color: #F7F7F7;
 }
 
 /*# sourceMappingURL=/styles.c86c3119.css.map */

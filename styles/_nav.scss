@@ -14,6 +14,7 @@
     align-items: center;
     padding: 40px;
     position: relative;
+    
     &__left {
         ul {
             list-style: none;
@@ -23,7 +24,7 @@
             text-decoration: none;
             margin: 0px 20px;
             font-family: 'PlayfairDisplay-Regular';
-            color: black;
+            color: colors.$textBlack;
         }
     }
     &__center {
@@ -36,11 +37,18 @@
             font-family: 'PlayfairDisplay-Bold';
             font-size: 1.8rem;
             letter-spacing: 0.075rem;
+            color: colors.$textBlack;
         }
         h3 {
             font-family: 'PlayfairDisplay-Regular';
             margin-top: -0.25rem;
             letter-spacing: 0.075rem;
+            color: colors.$textBlack;
+        }
+    }
+    &__right {
+        .fab, .fas {
+            margin: 0px 10px;
         }
     }
 }
